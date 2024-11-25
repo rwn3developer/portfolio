@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 22px 30px;
+    border-right: 1px solid #ccc;
+}
+
+.headerAddress {
+    padding: 20px 30px;
+}
+
+.headerAddress h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.headerAddress p {
+    font-size: 14px;
+}
