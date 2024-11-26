@@ -9,16 +9,17 @@ header {
     display: flex;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    align-items: center;
+    gap: 40px;
 
 }
 
 .header-left {
     display: flex;
-    align-items: center;
 }
 
 .logo {
-    padding: 22px 30px;
+    padding: 24px 30px;
     border-right: 1px solid #ccc;
 }
 
@@ -33,4 +34,46 @@ header {
 
 .headerAddress p {
     font-size: 14px;
+}
+
+.searchBox {
+    flex-grow: 1;
+    border: 1px solid #f4f4f4;
+    display: flex;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+}
+
+.searchBox input {
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+}
+
+.searchBox button {
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.searchBox input:focus {
+    outline: none;
+}
+
+.headerBtn {
+    display: flex;
+    margin-right: 40px;
+    gap: 40px;
+}
+
+.headerBtn button {
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+
+.headerBtn button:last-child {
+    background-color: rgb(12, 131, 31);
+    color: white;
 }
